@@ -1,0 +1,139 @@
+h1{
+   
+    color: white;
+} 
+
+h4{
+    background-color: black;
+    color: brown;
+}
+
+header{
+    background-color: lightpink;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+a:hover{
+    color: lightseagreen;
+}
+
+.parent_div{
+    background-color: rgb(199, 122, 133);
+    padding: 50px;
+}
+h1{
+    text-align: center;
+}
+.child1{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+button{
+    color: white;
+    border: 2px solid plum;
+    background: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+.button2{
+    border: 2px solid pink;
+}
+.parent2{
+    text-align: center;
+    padding: 50px;
+}
+h2{
+    color: pink;
+}
+
+h3{
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    list-style: none;
+    
+}
+li{
+    border: 2px solid lightpink;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.Art{
+    display: flex;
+    gap: 5px;
+     justify-content: center;
+}
+.Art div{
+    border: 2px solid rgba(255, 192, 203, 0.793);
+    border-radius: 5px;
+    flex-basis: 300px;
+   
+}
+.Art div:hover{
+    color: palevioletred;
+}
+
+.Adele{
+    text-align: center;
+    background-color: rgb(246, 209, 215);
+    color: white;
+    padding: 60px;
+    margin-top: 30px;
+}
+.Sport{
+    color: white;
+}
+
+footer{
+    background-color: rgb(57, 56, 56);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.Paint{
+    padding: 5px;
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        color: lightcyan;
+    }
+    h2{
+        color: lightskyblue;
+    }
+    h3{
+        color: lightgray;
+    }
+    .Art{
+        flex-direction: column;
+        margin-left: 75px;
+       
+    }
+    .Art div{
+        width: 300px;
+    }
+}

@@ -1,0 +1,49 @@
+.div1{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+    z-index: 4;
+}
+
+.div2{
+    background-color: lightpink;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 10px;
+    /* top: 10px; */
+    bottom: 10px;
+}
+
+.div3{
+    background-color: lightyellow;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    right: 10px;
+}
+
+
+.sticky{
+    background-color: lightcyan;
+    width: 300px;
+    height: 300px;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+
+.intro{
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+    color: white;
+}
+
+img{
+    z-index: 5;
+    border-radius: 6px;
+}
