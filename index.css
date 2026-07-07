@@ -10,7 +10,7 @@ h4{
 
 header{
     background-color: lightpink;
-    color: blanchedalmond;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@ header{
 
 a{
     text-decoration: none;
-    color: blanchedalmond;
+    color: white;
 }
 a:hover{
     color: lightseagreen;
